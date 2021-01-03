@@ -47,7 +47,9 @@ Sub AllStocksAnalysisRefactored()
     
     ''2a) Create a for loop to initialize the tickerVolumes to zero.
         tickerVolumes(tickerIndex) = 0
-        
+        'I did not create a for loop here because it doubled my tickerIndex.
+        'Without the loop, I was still able to meet the requirements.
+
     ''2b) Loop over all the rows in the spreadsheet.
         For j = 2 To RowCount
     
