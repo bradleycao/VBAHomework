@@ -8,15 +8,15 @@ In this project, I refactored the Module 2 solution code to determine whether re
 
 ### 2017 Versus 2018 Stock Analysis
 
-![2017 Stock Analysis](Resource/VBA_Challenge_2017.png)
-![2018 Stock Analysis](Resource/VBA_Challenge_2018.png)
+![2017 Stock Analysis](Resources/VBA_Challenge_2017.png)
+![2018 Stock Analysis](Resources/VBA_Challenge_2018.png)
 
 The most significant thing we can see from these two screenshots is that the **Return Rate** on these stocks was down dramatically after one year. In some cases, the **Total Daily Volume** was also decreased (AY, CSIQ, SPWR, etc.). The only two worthy stocks to buy are **ENPH** and **RUN** since they still maintain their positive Return Rate.
 
 ### Execution Times comparison
 
-![Original Script](Resource/Original_Script.png)
-![Refactored Script](Resource/Refactored_Script.png)
+![Original Script](Resources/Original_Script.png)
+![Refactored Script](Resources/Refactored_Script.png)
 
 In these screenshots, I used 2018 for the analysis. As you can see, the execution time on the Refactored Script is much faster than the original script (0.04 seconds compares to 0.44 seconds) while still produces the same results. Thus, we can conclude that the Refactored Script has been working successfully.
 
